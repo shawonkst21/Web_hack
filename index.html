@@ -3,13 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image Upload</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <div class="box">first</div>
- <div class="box">second</div>
- <div class="box">third</div>
-<script src="script.js"></script>
+    <div class="container">
+        <div class="header">
+            <h1>Image Upload</h1>
+            <p>Click the dotted area below or use the upload button to select an image</p>
+        </div>
+
+        <div class="upload-section">
+           
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <div id="uploadArea" class="upload-area">
+                <div class="upload-placeholder">
+                    <div class="upload-icon">📷</div>
+                    <p class="upload-text">Click here to upload image</p>
+                    <p class="upload-subtext">or drag and drop your image</p>
+                </div>
+                <img id="previewImage" class="preview-image" style="display: none;" alt="Preview">
+            </div>
+
+            <button id="uploadBtn" class="upload-btn">
+                Select Image
+            </button>
+
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                ✓ Image uploaded successfully!
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
