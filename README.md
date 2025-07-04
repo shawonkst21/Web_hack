@@ -15,7 +15,7 @@ A live digital clock that updates every second using JavaScript.
 - Real-time clock
 - Uses system time
 - Clean, minimal design
-![Digital Clock](asssets/digital_clock.png) <!-- Replace with actual image -->
+![Digital Clock](Digital_clock/asssets/digital_clock.png) <!-- Replace with actual image -->
 #### 📁 Folder: `Digital_clock`
 
 ```bash
