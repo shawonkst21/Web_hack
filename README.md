@@ -25,8 +25,37 @@ Digital_clock/
 ├── script.js
 
 ```
+# 📅 Day 2: currency_converter
+
+A simple and responsive currency converter web app built using HTML, CSS, and JavaScript.  
+It fetches real-time exchange rates from the free and open [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api) and allows users to convert between different currencies with live flag icons.
 
 ---
+
+## 🚀 Features
+
+- 🔁 Convert between 100+ currencies
+- 📡 Real-time exchange rates using `jsDelivr` CDN
+- 🏳️ Auto flag icon updates based on currency
+- 🧮 Input validation (no empty/invalid values)
+- 🎨 Clean and responsive design
+
+---
+![currency_converter](currency_convertor/assets/image.png) <!-- Replace with actual image -->
+
+
+## 📂 Folder Structure
+
+```bash
+Currency_Converter/
+├── index.html          # HTML structure
+├── style.css           # Styling file
+├── script.js           # JavaScript logic
+├── codes.js            # Contains countryList (currency → country code)
+├── assets/
+│   └── currency_converter.png   # Screenshot (add your own image)
+
+```
 
 ## 📅 Challenge Progress
 
@@ -34,7 +63,7 @@ Digital_clock/
 |-----|------------------|------------|
 | 1   | Digital Clock    | ✅ Done     |
 | 2   | To-Do App        | ✅ Done     |
-| 3   | `Pending`        | 🔜 Coming Soon |
+| 3   | currency_converter| ✅ Done  |
 | 4   | `Pending`        | 🔜 Coming Soon |
 | ... | ...              | ...        |
 | 30  | Final Project 🎯 | ⏳         |
