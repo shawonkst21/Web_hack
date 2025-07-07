@@ -60,7 +60,7 @@ Currency_Converter/
 
 A simple and clean weather application that shows real-time weather information for any city using the **OpenWeatherMap API**.
 
-![Weather App UI](images/weatherapp.png) 
+![Weather App UI](weatherApp/images/weatherapp.png) 
 
 ---
 
@@ -97,7 +97,7 @@ A simple and clean weather application that shows real-time weather information 
 | 1   | Digital Clock    | ✅ Done     |
 | 2   | To-Do App        | ✅ Done     |
 | 3   | currency_converter| ✅ Done  |
-| 4   | `Pending`        | 🔜 Coming Soon |
+| 4   | weather App      |✅ Done |
 | ... | ...              | ...        |
 | 30  | Final Project 🎯 | ⏳         |
 
