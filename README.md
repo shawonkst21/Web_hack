@@ -56,6 +56,39 @@ Currency_Converter/
 │   └── currency_converter.png   # Screenshot (add your own image)
 
 ```
+### 📅 Day 3:weather App
+
+A simple and clean weather application that shows real-time weather information for any city using the **OpenWeatherMap API**.
+
+![Weather App UI](images/weatherapp.png) 
+
+---
+
+## 🚀 Features
+
+- 🔍 City-based weather search
+- 🌡️ Displays temperature in Celsius
+- 💧 Shows humidity and wind speed
+- 🌤️ Weather icons that change based on current condition
+- 📱 Responsive & minimal UI
+- 🔁 Real-time updates on user request
+
+---
+
+## 📁 Project Structure
+```
+├── index.html # Main HTML file
+├── style.css # App styling
+├── script.js # JavaScript logic (API + UI)
+├── assets/ # Weather icons
+│ ├── clouds.png
+│ ├── clear.png
+│ ├── rain.png
+│ ├── drizzle.png
+│ ├── mist.png
+│ └── default.png
+```
+
 
 ## 📅 Challenge Progress
 
