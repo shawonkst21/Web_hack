@@ -7,7 +7,7 @@ Every day, I build a new mini project using HTML, CSS, and JavaScript to improve
 
 ---
 
-### 📅 Day 1: Digital Clock
+## 📅 Day 1: Digital Clock
 
 A live digital clock that updates every second using JavaScript.
 
@@ -16,16 +16,8 @@ A live digital clock that updates every second using JavaScript.
 - Uses system time
 - Clean, minimal design
 ![Digital Clock](Digital_clock/asssets/digital_clock.png) <!-- Replace with actual image -->
-#### 📁 Folder: `Digital_clock`
 
-```bash
-Digital_clock/
-├── index.html
-├── style.css
-├── script.js
-
-```
-# 📅 Day 2: currency_converter
+## 📅 Day 2: currency_converter
 
 A simple and responsive currency converter web app built using HTML, CSS, and JavaScript.  
 It fetches real-time exchange rates from the free and open [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/currency-api) and allows users to convert between different currencies with live flag icons.
@@ -43,20 +35,7 @@ It fetches real-time exchange rates from the free and open [Fawaz Ahmed Currency
 ---
 ![currency_converter](currency_convertor/assets/image.png) <!-- Replace with actual image -->
 
-
-## 📂 Folder Structure
-
-```bash
-Currency_Converter/
-├── index.html          # HTML structure
-├── style.css           # Styling file
-├── script.js           # JavaScript logic
-├── codes.js            # Contains countryList (currency → country code)
-├── assets/
-│   └── currency_converter.png   # Screenshot (add your own image)
-
-```
-### 📅 Day 3:weather App
+## 📅 Day 3:weather App
 
 A simple and clean weather application that shows real-time weather information for any city using the **OpenWeatherMap API**.
 
@@ -75,20 +54,47 @@ A simple and clean weather application that shows real-time weather information 
 
 ---
 
-## 📁 Project Structure
-```
-├── index.html # Main HTML file
-├── style.css # App styling
-├── script.js # JavaScript logic (API + UI)
-├── assets/ # Weather icons
-│ ├── clouds.png
-│ ├── clear.png
-│ ├── rain.png
-│ ├── drizzle.png
-│ ├── mist.png
-│ └── default.png
-```
+## 📅 Day 4: Tic Tac Toe Game
 
+A classic Tic Tac Toe game built with HTML, CSS, and JavaScript. Play against a friend in a fun, interactive UI.
+
+![Tic Tac Toe UI](Tic_tac_toe/image.png)
+
+---
+
+## 🚀 Features
+
+- 🎮 Two-player local gameplay  
+- ✅ Win/tie detection logic  
+- 🔄 Reset game functionality  
+- ✨ Simple, clean, and responsive design  
+- 🎨 Visually highlights winning combinations  
+- 📱 Mobile-friendly layout  
+
+---
+
+## 📅 Day 5: Random Password Generator
+
+A clean and responsive web app that generates secure, random passwords with customizable options such as length and character types.
+
+![Password Generator UI](random_password/images/image.png)
+
+---
+
+## 🚀 Features
+
+- 🔢 Custom password length selection  
+- 🔡 Option to include:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Symbols  
+- 🔒 Strong and secure password generation  
+- 📋 One-click copy to clipboard  
+- ⚙️ Instant password regeneration  
+- 📱 Responsive & modern user interface  
+
+---
 
 ## 📅 Challenge Progress
 
@@ -98,7 +104,8 @@ A simple and clean weather application that shows real-time weather information 
 | 2   | To-Do App        | ✅ Done     |
 | 3   | currency_converter| ✅ Done  |
 | 4   | weather App      |✅ Done |
-| ... | ...              | ...        |
+| 5 | tic tac toe          | ✅ Done   |
+| 6 | random password generate        | ✅ Done   |
 | 30  | Final Project 🎯 | ⏳         |
 
 
