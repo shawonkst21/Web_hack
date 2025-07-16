@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">sh<span>aw</span>on</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ui uil-times"></i>
+        </div>
+      </div>
+       <!-- <div class="nav__socials">
+          <a href="https://www.facebook.com/shawon.kst.1" target="_blank" class="nav__social"><i class="uil uil-facebook-f"></i></a>
+          <a href="https://www.instagram.com/sadmanshawon/" target="_blank" class="nav__social"><i class="uil uil-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sadman-shawon-123456789/" target="_blank" class="nav__social"><i
+              class="uil uil-linkedin"></i></a>
+          <a href="https://github.com/sadmanshawon" target="_blank" class="nav__social"><i
+              class="uil uil-github"></i></a>
+        </div> -->
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Lets Talk</a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitile"> Welcome To My World </span>
+          <h1 class="home__title">
+            Hi i'm shawon <span>JS developer.</span><br />based in USA
+          </h1>
+        </div>
+        <img src="img/home.jpg" alt="" class="home__img" />
+      </div>
+    </section>
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="img/about.jpg" alt="" class="about__img" />
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+          <p class="about__description">
+            I am a passionate software engineer specializing in building
+            robust, user-friendly applications. With strong skills in coding,
+            problem-solving, and system design, I enjoy turning ideas into
+            efficient, scalable solutions.
+          </p>
+          <div class="tabs__btns">
+            <span class="tabs_btn tab__active" data-target="#skills">Main skills</span>
+            <span class="tabs_btn" data-target="#awards">Award</span>
+            <span class="tabs_btn" data-target="#experience">Experience</span>
+            <span class="tabs_btn" data-target="#education">Education & Certifications</span>
+          </div>
+          <div class="tabs_content">
+            <div class="tab__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description"></p>
+                <span>User experience design</span> - UI/UX <span>Delight the user and make it Work.</span>
+                </p>
+              </div>
+            </div>
+            <div class="tab__item" data-content id="awards">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Award Name</span> - Description <span>Year or details about the award.</span>
+                </p>
+              </div>
+            </div>
+            <div class="tab__item" data-content id="experience">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Job Title</span> - Company <span>Duration or details about experience.</span>
+                </p>
+              </div>
+            </div>
+            <div class="tab__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Degree/Certification</span> - Institution <span>Year or details about education.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section__title">My Awesome Services</h2>
+      <p class="section__description">
+        I offer a range of services to help you achieve your goals, from web development to digital marketing.
+      </p>
+      <div class="services__container  container grid">
+
+        <div class="services__item">
+          <i class="uil uil-rss-interface services_icon"></i>
+          <h3 class="services__title">Buisness-strategy</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-layer-group services_icon"></i>
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-users-alt services_icon"></i>
+          <h3 class="services__title">Marketing&Reporting</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-rss-interface services_icon"></i>
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-rss-interface services_icon"></i>
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+        <div class="services__item">
+          <i class="uil uil-rss-interface services_icon"></i>
+          <h3 class="services__title">Web Development</h3>
+          <p class="services__description">Building responsive and functional websites.</p>
+        </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Latest Project</h2>
+      <p class="section__description">
+        Here are some of the recent projects I've worked on, showcasing my skills in web development, UI/UX design.
+      </p>
+      <div class="protfolio__container container grid">
+        <div class="protfolio__item">
+          <img src="img/portfolio-1.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-2.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-3.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-4.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-5.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="protfolio__item">
+          <img src="img/portfolio-6.jpg" alt="" class="protfolio__img">
+          <div class="protfolio__data">
+            <p class="protfolio__subtitle">
+              Development
+            </p>
+            <h3 class="protfolio__title">WEB Design</h3>
+            <p class="protfolio__description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title">Hire Me</h2>
+          <p class="contact__description">
+            If you have any questions or inquiries, feel free to reach out to me through the form below.
+            <a href="tel:+01783434280">01783434280</a> or email: <a
+              href="mailto:sadmanshawonkst11@gmail.com">sadmanshawonkst11@gmail.com</a>
+          </p>
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Your Name*" class="contact__input" id="contact-name" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Your Email" class="contact__input" id="contact-email" />
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="write a subject" class="contact__input"
+                id="contact-subject" />
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" placeholder="Your Message*"
+                class="contact__input textarea"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn" />
+            <p class="error__message" id="error-message">Error</p>
+          </form>
+        </div>
+        <img src="img/about.jpg" alt="">
+
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">sh<span>aw</span>on</a>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/shawon.kst.1" class="footer__social"><i class="uil uil-facebook-f"></i></a>
+        <a href="https://www.instagram.com/sadmanshawon/" class="footer__social"><i class="uil uil-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sadman-shawon-123456789/" target="_blank" class="footer__social"><i
+            class="uil uil-linkedin"></i></a>
+        <a href="https://github.com/sadmanshawon" target="_blank" class="footer__social"><i
+            class="uil uil-github"></i></a>
+      </div>
+      <p class="footer__copyright">© 2023.All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+<a href="" class="scrollUp " id="scroll-up">
+  <i class="uil uil-angle-up scrolling__icon"></i>
+</a>
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="app.js"></script>
+</body>
+
+</html>
