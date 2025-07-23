@@ -506,19 +506,127 @@ text-align: center;}
 } 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
+/*=============== BREAKPOINTS ===============*/
+
+/* For large devices */
 @media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .home__img {
+    width: 360px;
+    height: 360px;
+  }
+
+  .services__container,
+  .protfolio__container,
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* For laptops/tablets */
 @media screen and (max-width: 992px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.75rem;
+  }
+
+  .home__container,
+  .about__container,
+  .contact__container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .home__img {
+    margin-inline: auto;
+  }
+
+  .nav__list {
+    display: none; /* Mobile menu can be toggled here */
+  }
+
+  .scroll-header .nav {
+    column-gap: 1rem;
+  }
 }
 
-/* For medium devices */
+/* For tablets */
 @media screen and (max-width: 768px) {
+  .services__container,
+  .protfolio__container,
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 0.75rem 2rem;
+  }
+
+  .scrollUp {
+    width: 40px;
+    height: 40px;
+  }
+
+  .scrolling__icon {
+    font-size: 1.75rem;
+  }
+
+  .section {
+    padding-block: 6rem;
+  }
+
+  .section__description {
+    font-size: var(--small-font-size);
+  }
 }
 
+/* For phones */
 @media screen and (max-width: 576px) {
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding-block: 5rem;
+  }
+
+  .footer__logo {
+    font-size: 2rem;
+  }
+
+  .footer__social {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .contact__input {
+    padding: 0.6rem 1rem;
+  }
 }
 
-/* For small devices */
+/* For very small devices */
 @media screen and (max-width: 350px) {
+  .btn {
+    padding: 0.5rem 1.25rem;
+    font-size: var(--smaller-font-size);
+  }
+
+  .contact__input {
+    font-size: 0.75rem;
+  }
+
+  .home__title {
+    font-size: 1.5rem;
+  }
+
+  .scrolling__icon {
+    font-size: 1.5rem;
+  }
 }
