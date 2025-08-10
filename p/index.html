@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shawon — Portfolio</title>
+
+  <!-- Fonts & icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">sh<span>aw</span>on</a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary">Hire me</a>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open menu">
+          <i class="uil uil-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile navigation drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <button id="mobileClose" class="drawer-close" aria-label="Close menu"><i class="uil uil-times"></i></button>
+      <ul class="drawer-list">
+        <li><a href="#home" class="drawer-link">Home</a></li>
+        <li><a href="#about" class="drawer-link">About</a></li>
+        <li><a href="#services" class="drawer-link">Services</a></li>
+        <li><a href="#portfolio" class="drawer-link">Portfolio</a></li>
+        <li><a href="#contact" class="drawer-link">Contact</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <a href="#" target="_blank" aria-label="Github"><i class="uil uil-github"></i></a>
+        <a href="#" target="_blank" aria-label="LinkedIn"><i class="uil uil-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Hi — I'm</p>
+          <h1 class="title">Shawon<span class="accent">.</span></h1>
+          <p class="lead">Frontend-focused JavaScript developer building accessible, high-performance web apps and delightful UI.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#portfolio">See my work</a>
+            <a class="btn btn-ghost" href="#contact">Let's talk</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Replace with your image -->
+          <div class="portrait">
+            <img src="img/home.jpg" alt="Shawon portrait">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container section-inner">
+        <div class="split">
+          <div class="card glass reveal">
+            <h2>About me</h2>
+            <p>I build web interfaces with JavaScript, React (or vanilla JS), and clean CSS. My focus is performance, accessibility, and visuals that feel polished. I love turning complex problems into simple, delightful experiences.</p>
+            <ul class="meta">
+              <li><strong>Location:</strong> USA</li>
+              <li><strong>Role:</strong> Frontend / UI Engineer</li>
+              <li><strong>Availability:</strong> Open for work</li>
+            </ul>
+            <div class="skills">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React</span>
+              <span class="skill">UI/UX</span>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <img class="about-art" src="img/about.jpg" alt="About image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-dark">
+      <div class="container section-inner">
+        <header class="section-head reveal">
+          <h2>Services</h2>
+          <p class="section-desc">What I can do for your product — clean code, beautiful UI, and real UX thinking.</p>
+        </header>
+
+        <div class="grid services-grid">
+          <div class="service card glass reveal">
+            <i class="uil uil-laptop-code service-icon"></i>
+            <h3>Frontend Development</h3>
+            <p>Responsive, performant websites using modern JavaScript and best practices.</p>
+          </div>
+
+          <div class="service card glass reveal">
+            <i class="uil uil-palette service-icon"></i>
+            <h3>UI / UX Design</h3>
+            <p>High-fidelity interfaces, micro-interactions and design systems that scale.</p>
+          </div>
+
+          <div class="service card glass reveal">
+            <i class="uil uil-chart growth service-icon"></i>
+            <h3>Performance & Accessibility</h3>
+            <p>Faster load times, SEO-friendly markup, and ARIA-friendly interactions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <div class="container section-inner">
+        <header class="section-head reveal">
+          <h2>Selected Projects</h2>
+          <p class="section-desc">A few examples of recent work — click to view details.</p>
+        </header>
+
+        <div class="grid portfolio-grid">
+          <!-- Project item -->
+          <article class="project card glass reveal">
+            <img src="img/portfolio-1.jpg" alt="Project 1" class="project-img">
+            <div class="project-overlay">
+              <h4>Project One</h4>
+              <p>Responsive web app · JS · UI</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-small">Live</a>
+                <a href="#" class="btn btn-ghost btn-small">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card glass reveal">
+            <img src="img/portfolio-2.jpg" alt="Project 2" class="project-img">
+            <div class="project-overlay">
+              <h4>Project Two</h4>
+              <p>Design system · Components</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-small">Live</a>
+                <a href="#" class="btn btn-ghost btn-small">Case</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project card glass reveal">
+            <img src="img/portfolio-3.jpg" alt="Project 3" class="project-img">
+            <div class="project-overlay">
+              <h4>Project Three</h4>
+              <p>Interactive dashboard · Data</p>
+              <div class="project-actions">
+                <a href="#" class="btn btn-small">Live</a>
+                <a href="#" class="btn btn-ghost btn-small">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <div class="container section-inner">
+        <div class="split">
+          <div class="card glass reveal">
+            <h2>Let's work together</h2>
+            <p>Have a project, an idea, or just want to say hi? Send a message — I'll get back within a couple days.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <label class="visually-hidden" for="name">Name</label>
+              <input id="name" name="name" class="input" placeholder="Your name" required>
+
+              <label class="visually-hidden" for="email">Email</label>
+              <input id="email" name="email" type="email" class="input" placeholder="Your email" required>
+
+              <label class="visually-hidden" for="message">Message</label>
+              <textarea id="message" name="message" class="input textarea" placeholder="Tell me about your project" rows="5" required></textarea>
+
+              <div class="form-row">
+                <button type="submit" class="btn btn-primary">Send message</button>
+                <div id="formStatus" role="status" aria-live="polite" class="form-status"></div>
+              </div>
+            </form>
+          </div>
+
+          <div class="reveal">
+            <div class="contact-card">
+              <h3>Contact</h3>
+              <p><strong>Email:</strong> <a href="mailto:sadmanshawonkst11@gmail.com">sadmanshawonkst11@gmail.com</a></p>
+              <p><strong>Phone:</strong> <a href="tel:+01783434280">+8801783434280</a></p>
+              <p><strong>Location:</strong> USA</p>
+              <div class="socials">
+                <a href="#" aria-label="Github"><i class="uil uil-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="uil uil-linkedin"></i></a>
+              </div>
+              <img src="img/about.jpg" alt="" class="contact-art">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="copyright">© <span id="year"></span> Shawon — Built with care</div>
+      <div class="small-links">
+        <a href="#portfolio">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top"><i class="uil uil-angle-up"></i></button>
+
+  <script src="app.js"></script>
+</body>
+</html>
